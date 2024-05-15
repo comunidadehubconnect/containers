@@ -48,6 +48,10 @@ chmod +x docker_commands.sh
 Execute crontab -e para editar o arquivo Cron e adicione a seguinte linha no final para executar o script exatamente às 02:00 da manhã:
 
 ```bash
+crontab -e
+```
+
+```bash
 0 2 * * * /caminho/para/o/script/docker_commands.sh
 ```
 
