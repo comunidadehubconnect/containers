@@ -62,7 +62,7 @@ crontab -e
 ```
 
 ```bash
-0 2 * * * /caminho/para/o/script/docker_commands.sh
+0 2 * * * /root/docker_commands.sh
 ```
 
 **Pronto tudo Funcionando** ✅😎
